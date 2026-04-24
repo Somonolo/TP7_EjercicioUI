@@ -8,9 +8,9 @@ public class UI_manager : MonoBehaviour
     public TMP_InputField inputNumero;
     public TextMeshProUGUI txtResultado;
 
-    private int numeroActual;
-    private bool numeroCargado = false;
-    private string ultimoValorIngresado;
+    public int numeroActual;
+    public bool numeroCargado = false;
+    public string ultimoValorIngresado;
 
     void Start()
     {
